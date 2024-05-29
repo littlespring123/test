@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	cursor: url("./assets/vue.svg");
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none; /* 去除默认的下划线 */
+	outline: none; /* 去除旧版浏览器的点击后的外虚线框 */
+	color: #000; /* 去除默认的颜色和点击后变化的颜色 */
+}
+a:hover {
+	cursor: pointer;
+	/* color: #535bf2; */
+}
+
+ul {
+	list-style: none;
+}
+li {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+.card {
+	padding: 2em;
+}
+
+/* textarea*/
+textarea::-webkit-input-placeholder {
+	color: #999999;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+textarea {
+	margin: 3px;
+	white-space: pre-wrap;
+	outline: none;
+	padding: 3px;
+	font-family: "微软雅黑";
+}
+textarea:focus {
+	/* outline: 1px solid v-bind(themeColor); */
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
