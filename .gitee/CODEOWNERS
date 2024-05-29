@@ -1,0 +1,18 @@
+# Code Owners for a file
+# filename @littlespring123
+
+# Code Owners for a directory
+# You can also use email addresses if you prefer.
+# src/ @littlespring123 3198662089@qq.com
+
+# 正则匹配
+*.vue  @littlespring123 
+
+# The `docs/*` pattern will match files like
+# `docs/getting-started.md` but not further nested files like
+# `docs/build-app/troubleshooting.md`.
+# docs/*  docs@example.com
+
+# In this example, @octocat owns any file in an apps directory
+# anywhere in your repository.
+# apps/ @octocat
