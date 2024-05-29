@@ -45,7 +45,9 @@ stages:
 triggers:
   push:
     branches:
-      exclude:
-        - master
       include:
+        - master
+#      exclude:
+#        - master
+#      include:
         - .*
